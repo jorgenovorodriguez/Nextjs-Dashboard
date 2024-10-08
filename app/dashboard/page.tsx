@@ -1,5 +1,4 @@
-import { log } from 'console';
-import { fetchCardData, fetchLatestInvoices, fetchRevenue } from '../lib/data';
+import { fetchCardData, fetchLatestInvoices } from '../lib/data';
 import RevenueChart from '../ui/dashboard/revenue-chart';
 import { lusitana } from '../ui/fonts';
 import LatestInvoices from '../ui/dashboard/latest-invoices';
